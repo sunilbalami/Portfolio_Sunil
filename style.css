@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+}/* navigation bar styling */
+.navbar{
+    position: fixed;
+    width:100% ;
+    background:#222;
+    font-family:'Work Sans', sans-serif;
+    
+}
