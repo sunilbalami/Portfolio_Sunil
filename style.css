@@ -6,13 +6,14 @@
 }/* navigation bar styling */
 .max-width{
     max-width: 1300px;
-    padding: 0 80px;
+    padding: 0 60px;
     margin: auto;
 
 }
 .logo{
     float: left;
-    padding-top:3px;
+    padding-top:1px;
+    height: 40px;
 }
 .navbar{
     position: fixed;
@@ -38,6 +39,18 @@
     list-style: none;
     display: inline-block;
    
-    
+}/* styling for main section*/
+.main{
+    display: flex;
+    background:url("pictures/my-pic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 500px;
+    color: white;
+    min-height: 500px;
+    font-family:'Work Sans', sans-serif;
 
+}.main .max-width{
+    margin: auto 0 auto 40px;
 }
