@@ -46,8 +46,14 @@
 .navbar .nav li{
     list-style: none;
     display: inline-block;
+
    
-}/* styling for main section*/
+}
+.navbar .nav li a:hover{
+    color:crimson;
+    
+}
+    /* styling for main section*/
 .main{
     display: flex;
     background:url("pictures/my-pic.png");
