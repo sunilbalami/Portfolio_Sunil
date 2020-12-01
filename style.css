@@ -100,3 +100,49 @@ text-decoration:none;
 footer span a:hover{
     text-decoration:underline;
 }
+/*about page styling */
+section{
+    padding:100px 0;
+
+}
+.about{
+    padding:110px 0 0 0;
+    font-family:'Ubuntu', sans-serif;
+}
+.about .title{
+    position: relative;
+    text-align:center;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 500;
+    margin-bottom: 60px;
+    font-size:30px;
+    padding-bottom:20px;
+}
+.about .about-content .left img{
+    height: 450px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+.about .about-content .lelf{
+    width: 45%;
+}
+.about .about-content .right{
+    width: 55%;
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom:10px;
+}
+.about .about-content .right span{
+    color:crimson;
+}
+.about .about-content .right p{
+    
+}
