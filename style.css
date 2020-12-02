@@ -221,6 +221,22 @@ section{
     transition: all 0.3s ease;
 }
 
+/*portfolio styling*/
+.portfolio{
+    padding:110px 0 0 0;
+    font-family:'Ubuntu', sans-serif;
+}
+.portfolio .max-width .title{
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-size:25px;
+}.portfolio-content .column{
+    text-align:center;
+}
+.portfolio .max-width .column .right{
+    font-size: 15;
+}
 
 
 /*footer styling */
