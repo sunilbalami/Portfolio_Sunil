@@ -9,7 +9,7 @@
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
-    
+
 }
 .navbar .myLogo a{
     color:#fff;
@@ -201,6 +201,26 @@ section{
 .contact .contact-content .info .sub-title{
     color: #333;
 }
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 15px;
+    width: 60%;
+    margin-bottom: 8px;
+}
+.contact .right form .button button{
+    width: 40%;
+    height: 60%;
+    border: 1px solid crimson;
+    background: crimson;
+    color: #fff;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
 
 
 /*footer styling */
