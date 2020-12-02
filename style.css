@@ -420,21 +420,70 @@ contact .right form .fields{
 
 
 /*portfolio styling*/
+.portfolio .title::after{
+    content: "My work";
+}
 .portfolio{
     padding:110px 0 0 0;
-    font-family:'Ubuntu', sans-serif;
+    font-family:'arial', sans-serif;
 }
 .portfolio .max-width .title{
     text-align: center;
     margin-top:10px;
     margin-bottom: 10px;
     font-size:25px;
-}.portfolio-content .column{
-    text-align:center;
 }
-.portfolio .max-width .column .right{
-    font-size: 15;
-}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/*stylig for social media */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    align-items: right;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .social P{
+      text-align: center;
+  }
+ .social .fil{
+     margin:auto 0 0 auto;
+ }
+ .social .fil{
+     text-align: center;
+ }
+
 
 
 /*footer styling */
